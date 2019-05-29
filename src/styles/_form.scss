@@ -1,0 +1,40 @@
+.form-group {
+  &-card {
+    background-color: transparent !important;
+    border: none !important;
+    &__label {
+      font-size: 22px;
+      font-weight: 600;
+    }
+    &__button {
+      margin-top: 10px;
+    }
+  }
+}
+
+.content-background {
+  background-image: url(../assets/images/background.jpg);
+  background-position: fixed;
+  background-repeat: repeat;
+}
+
+.about {
+  &-pojo {
+    &__background {
+      background-image: url(../assets/images/circuit-board.jpg);
+      &::before {
+        opacity: 0.5;
+        background-position: right top;
+      }
+    }
+  }
+  &-json {
+    &__background {
+      background-image: url(../assets/images/artificial-intelligence.jpg);
+      &::before {
+        opacity: 0.5;
+        background-position: center bottom;
+      }
+    }
+  }
+}

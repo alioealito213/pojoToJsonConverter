@@ -1,4 +1,15 @@
+About
+-----
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This is a project where a user can:
+* Convert POJO to JSON
+* Convert JSON to POJO
+* Upload a file to convert
+* (@TODO) Save converted text into a file - needs server
+* (@TODO) Click a button to copy to clipboard (depends on browser support)
+
+NOTE: The textboxes are Read Only, therefore the user can only highlight and copy the input & output.
 
 ## Available Scripts
 
